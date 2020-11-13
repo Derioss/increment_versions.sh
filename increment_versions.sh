@@ -15,6 +15,8 @@ IFS=$'\n\t'
 #/   -f|--files             : input: path of <version_files> in json format
 #/   -t|--type-of-version   : Take this value major|minor|patch for increment respectively
 #/                            the first|two|three versions numbers separate by point.
+#/    -p|--package-name     : The name of package ex: package_name1
+#/    -d|--dry-run          : Active dry-run mode, the json file isn't update.
 #/ See json format files
 #/ {
 #/   "versions": {
