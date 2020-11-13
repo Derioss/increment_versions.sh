@@ -17,6 +17,7 @@ IFS=$'\n\t'
 #/                            the first|two|three versions numbers separate by point.
 #/    -p|--package-name     : The name of package ex: package_name1
 #/    -d|--dry-run          : Active dry-run mode, the json file isn't update.
+#/
 #/ See json format files
 #/ {
 #/   "versions": {
