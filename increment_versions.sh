@@ -153,7 +153,7 @@ if [[ "${BASH_SOURCE[0]}" = "$0" ]]; then
         patch=$((patch + 1 ))
         ;;
         *)
-        error "${package_name have wrong type of version}"
+        error "${package_name} have wrong type of version"
         usage
         ;;
     esac
